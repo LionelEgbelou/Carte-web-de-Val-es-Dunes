@@ -49,7 +49,7 @@
             zoomControl:false, maxZoom:28, minZoom:6
         }).fitBounds([[49.01717657093551,-0.44888917675302703],[49.2137530529881,0.08886317476837391]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a> Réalisé par <b> Lionel EGBELOU, étudiant en Licence Pro SIGDAT à l\'Université de Caen Normandie </b></a> ; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('Réalisé par <b> Lionel EGBELOU, étudiant en Licence Pro SIGDAT à l\'Université de Caen Normandie </b> | <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
